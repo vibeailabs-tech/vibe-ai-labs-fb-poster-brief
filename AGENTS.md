@@ -17,7 +17,8 @@ Chuỗi nội dung: `fb-writing` (bài Facebook) → `poster-layout` (bố cục
 
 - `poster-layout` chỉ trả một bản phác họa bằng chữ (một khung chứa đúng các dòng chữ của poster, dòng lớn nhất được đánh dấu). Nó không đọc brandkit, không đếm từ, không chia vùng hay giải thích.
 - Giới hạn chữ trên poster lấy theo `brandkit/07_Copy_Library/poster-copy-library.md` (tiêu đề ≤ 8 từ, tổng ≤ 30 từ, ≤ 40 từ với danh sách/sự kiện). `design-brief` là bước kiểm tra các mức này.
-- Workspace chỉ giữ bản mới nhất của mỗi skill. Các bản snapshot cũ và thư mục `*-workspace` đã bị xoá ngày 2026-11-11; không có git nên không khôi phục được.
+- Workspace chỉ giữ bản mới nhất của mỗi skill. Các bản snapshot cũ và thư mục `*-workspace` đã bị xoá ngày 2026-11-11, trước khi có git, nên không khôi phục được.
+- Workspace là git repo, remote `origin` = https://github.com/vibeailabs-tech/vibe-ai-labs-fb-poster-brief (public, nhánh `main`). Git chưa cấu hình user; commit dùng `-c user.name="vibeailabs-tech" -c user.email="vibeailabs@gmail.com"`.
 
 ## Lệnh kiểm tra
 
