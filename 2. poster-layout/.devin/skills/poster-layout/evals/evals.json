@@ -1,0 +1,67 @@
+{
+  "skill_name": "poster-layout",
+  "evals": [
+    {
+      "id": 1,
+      "name": "tips-vuong-facebook",
+      "prompt": "mình mới viết xong bài này cho fanpage (evals/files/bai-ngu-ngon.md). lên bố cục poster vuông để đăng facebook giúp mình với, chỉ cần bố cục chữ thôi nha",
+      "expected_output": "Một bản phác họa bằng chữ cho 5 thói quen ngủ ngon: một khung chứa tiêu đề, 5 ý ngắn và phần chân, không kèm giải thích.",
+      "files": [
+        "evals/files/bai-ngu-ngon.md"
+      ],
+      "expectations": [
+        "Kết quả là đúng một khối code chứa một khung vẽ bằng ký tự, bên trong là chữ thật của poster",
+        "Có đúng một dòng được đánh dấu '← lớn nhất'",
+        "Ngoài khối code không có tiêu đề, giải thích, bảng đếm từ, danh sách vùng hay mục liệt kê phần bị bỏ (chỉ được có một dòng 'Cần bổ sung' nếu thiếu thông tin)",
+        "Chữ poster không có emoji và không viết hoa cả câu",
+        "Không có nội dung nào về màu sắc, font chữ, phong cách hay mô tả hình ảnh",
+        "Không nhắc tới brandkit",
+        "Cả 5 thói quen trong bài đều xuất hiện, mỗi thói quen rút gọn thành một ý ngắn",
+        "Các con số giữ đúng như bài (30 phút, 2 giờ chiều, 3 việc)"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "su-kien-thieu-dia-chi",
+      "prompt": "Lên bố cục poster cho bài thông báo workshop này: evals/files/bai-workshop-ca-phe.md",
+      "expected_output": "Một bản phác họa bằng chữ cho workshop: tên sự kiện là dòng lớn nhất, giữ đúng ngày giờ, phí và một cách đăng ký, đánh dấu địa chỉ tiệm là cần bổ sung thay vì tự bịa.",
+      "files": [
+        "evals/files/bai-workshop-ca-phe.md"
+      ],
+      "expectations": [
+        "Kết quả là đúng một khối code chứa một khung vẽ bằng ký tự, bên trong là chữ thật của poster",
+        "Có đúng một dòng được đánh dấu '← lớn nhất'",
+        "Ngoài khối code không có tiêu đề, giải thích, bảng đếm từ, danh sách vùng hay mục liệt kê phần bị bỏ (chỉ được có một dòng 'Cần bổ sung' nếu thiếu thông tin)",
+        "Chữ poster không có emoji và không viết hoa cả câu",
+        "Không có nội dung nào về màu sắc, font chữ, phong cách hay mô tả hình ảnh",
+        "Không nhắc tới brandkit",
+        "Ngày giờ ghi đúng: Chủ nhật 22/11/2026, 9:00 đến 11:30",
+        "Phí ghi đúng 350.000 đồng",
+        "Chỉ có một lời kêu gọi, đặt trong ngoặc vuông, với một cách đăng ký chép đúng như bài",
+        "Địa chỉ cụ thể của tiệm được ghi là [cần bổ sung: ...] trong khung, không có địa chỉ đường phố nào bị bịa ra",
+        "Dòng lớn nhất là tên sự kiện"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "quan-diem-in-thu-vien",
+      "prompt": "Bài này mình định in poster dán ở thư viện trường. Chia bố cục giúp mình xem để gì ở đâu: evals/files/bai-doc-sach.md",
+      "expected_output": "Một bản phác họa bằng chữ xoay quanh một câu thông điệp (mười trang mỗi ngày), dùng lại câu chữ của bài, rất ít chữ.",
+      "files": [
+        "evals/files/bai-doc-sach.md"
+      ],
+      "expectations": [
+        "Kết quả là đúng một khối code chứa một khung vẽ bằng ký tự, bên trong là chữ thật của poster",
+        "Có đúng một dòng được đánh dấu '← lớn nhất'",
+        "Ngoài khối code không có tiêu đề, giải thích, bảng đếm từ, danh sách vùng hay mục liệt kê phần bị bỏ (chỉ được có một dòng 'Cần bổ sung' nếu thiếu thông tin)",
+        "Chữ poster không có emoji và không viết hoa cả câu",
+        "Không có nội dung nào về màu sắc, font chữ, phong cách hay mô tả hình ảnh",
+        "Không nhắc tới brandkit",
+        "Dòng lớn nhất là một câu về việc đọc mười trang mỗi ngày hoặc không đợi rảnh mới đọc",
+        "Con số nào xuất hiện thì đúng như bài (10 trang, 15 phút, 3.650 trang, 12 cuốn)",
+        "Không thêm lợi ích hay số liệu nào về việc đọc sách mà bài không nói",
+        "Cả poster không quá khoảng 40 từ"
+      ]
+    }
+  ]
+}
